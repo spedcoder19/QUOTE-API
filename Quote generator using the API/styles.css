@@ -1,0 +1,32 @@
+body{
+    background-color:hsl(0, 0%, 95%);
+    margin: 0;
+}
+#Quotes{
+    font-family:arial, sans-serif;
+    font-weight:bold;
+    font-size: 1.76rem;
+    font-style: italic;
+    color:hwb(0 60% 50% / 0.982);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#newQuote{
+    margin-top: 80px;
+    padding:10 20px;
+    font-family:arial, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    background-color:hsl(180, 85%, 51%);
+    border:none;
+    color:white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+#newQuote:hover{
+    background-color:hsl(180, 85%, 41%);
+}
+#newQuote:active{
+    background-color:hsl(180, 85%, 31%);
+}
